@@ -12,10 +12,10 @@
             crossorigin="anonymous"></script>
 </head>
 <body>
-<jsp:include page="/WEB-INF/pages/menu.jsp"/>
+<jsp:include page="/WEB-INF/fragments/menu.jsp"/>
 <main class="container-fluid mt-5" style="min-height: calc(100vh - 125px)">
     <jsp:doBody/>
 </main>
-<jsp:include page="/WEB-INF/pages/footer.jsp"/>
+<jsp:include page="/WEB-INF/fragments/footer.jsp"/>
 </body>
 </html>
